@@ -77,7 +77,7 @@ fs.readdirSync(referenceImagesDirectory).forEach((file) => {
 });
 
 // Cargar una imagen de prueba con ruido desde el directorio
-const testImageFile = 'test_image2.png';
+const testImageFile = 'originalRuido.png';
 const testImage = loadImageFromPath(`${testImagesDirectory}/${testImageFile}`);
 
 Promise.all(referenceImages)
