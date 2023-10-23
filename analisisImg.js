@@ -67,7 +67,6 @@ function flattenMatrix(matrix) {
 
 // Cargar imágenes de referencia desde el directorio
 const referenceImages = [];
-
 fs.readdirSync(referenceImagesDirectory).forEach((file) => {
   console.log(file)
   if (file.endsWith('.png')) {
