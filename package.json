@@ -1,8 +1,16 @@
 {
   "devDependencies": {
     "@types/node": "^20.8.0",
+    "@types/pngjs": "^6.0.3",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jpeg-js": "^0.4.4",
+    "mathjs": "^11.11.2",
+    "ndarray": "^1.0.19",
+    "pngjs": "^7.0.0"
   }
 }
